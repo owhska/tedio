@@ -44,4 +44,3 @@ resultado = tk.Label(janela, text="")
 resultado.pack()
 
 janela.mainloop()
-
