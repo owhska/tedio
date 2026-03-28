@@ -1,11 +1,11 @@
 const botao = document.getElementById("botao");
-    let som = new Audio("sound.mp3");    
     let contador = 0    
-    let mensagem = 'sua pontuacao e ${contador}';
+    let mensagem = `sua pontuacao e ${contador}`;
 
     botao.addEventListener('click', function(){
         //alert('botao clicado!');
     
+    let som = new Audio("/static/sound.mp3");    
         som.play();
         contador = contador + 1;
         
