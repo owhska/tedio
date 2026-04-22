@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 typedef struct {
     char nome[20];
@@ -16,7 +15,7 @@ int main(){
 
     //printf("%d\n", pessoas[1].idade);
     //printf("%s\n", pessoas[2].nome);
-    
+
     for (int i = 0; i < 3; i++){
         printf("Pessoa [%d] Nome: %s Idade: %d\n", i, pessoas[i].nome, pessoas[i].idade);
     }

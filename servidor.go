@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
-)http://localhost:8080/static/sound.mp3
+)
 
 func handlerExemplo(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>Hello World</h1>")

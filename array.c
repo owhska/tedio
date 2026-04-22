@@ -8,4 +8,3 @@ int main(){
     printf("%d\n", numero);
     return 0;
 }
-
