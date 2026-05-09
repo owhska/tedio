@@ -27,5 +27,8 @@ soup = BeautifulSoup(html, "html.parser") # analise o html da pagina
 
 divs = soup.find_all("a") # faz a procura de elementos
 
-for div in divs:
-    print(div.text)
+for div in divs: # Pegar um texto especifico
+    texto = div.text.strip()
+
+    if "Python" in texto:
+        print(texto)
