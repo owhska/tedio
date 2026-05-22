@@ -20,7 +20,7 @@ int reconhecedor_0x1(char * s){
         n1++;
         i++;
     } // Para contar a quantidade de uns no final da palavra
-      
+
 
     if(s[i] != '\0') return 0;
     return n0 == n1;
