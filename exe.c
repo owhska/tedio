@@ -31,7 +31,7 @@ int main(){
     char buf[1024];
 
     while(fgets(buf, sizeof(buf), stdin)) {
-    
+
         State s = S;
         int ok = 1;
 
@@ -48,7 +48,7 @@ int main(){
 
             if (s == DEAD) {ok = 0; break;}
         }
-        
+
         if (ok == 1 && s == Q2) printf("ACEITA\n");
         else printf("REJEITA\n");
     }
